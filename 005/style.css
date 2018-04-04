@@ -1,0 +1,124 @@
+.container {
+  background-color: gold;
+  min-height: calc(100vh - 0px);
+  flex-direction: column;
+  display: flex;
+  flex-flow: row wrap;
+  left:0;
+  right:0;
+  font-weight: bold;
+  text-align: center;
+  margin:auto;
+}
+
+.header {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 50px;
+  background-color: red;
+}
+
+.part1 {
+  position: absolute;
+  min-height: calc(100vh - 86px);
+  display: flex;
+  margin-left: 0;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.s {
+  margin: auto;
+  color: red;
+  text-shadow: 2px 2px gold;
+  font-family: "Ormont";
+  font-weight: bold;
+  font-size: 36px;
+}
+
+
+
+input {
+  margin: auto;
+  font-family: "Ormont";
+  text-align: center;
+  /*margin-bottom: 30px;*/
+  font-size: 18px;
+  line-height: 30px;
+  width: 260px;
+  height: 30px;
+}
+
+.aButton {
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  height: 40px;
+  width: 120px;
+  /*margin-top: 10px;*/
+  border: 2px none;
+  border-radius: 10px;
+}
+
+.title{
+  font-family: "Ormont";
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+button:hover {
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+
+/*.part2 {
+	background-color: gold;
+  position: static;
+  margin-top: 0px;
+
+}*/
+
+.the-tracker {
+  position: fixed;
+  margin-bottom: 40pt;
+}
+
+.footer {
+  position: fixed;
+  font-family: "Ormont";
+  font-size: 6px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.resultsTarget {
+  margin-left: 0;
+  background-color: gold;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+#column {
+  flex: 36%;
+  padding: 10 10px;
+}
+
+#column img {
+  height: 150px;
+}
