@@ -1,5 +1,5 @@
 var app = {
-  giphyURL: "https://api.giphy.com/v1/gifs/search?api_key=DvzuK96UqRD9z1BCPkPH1NVt9JvVqFLW&q=",
+  giphyURL: "https://api.giphy.com/v1/gifs/search?api_key=Your API Key=",
 
   initialize: function() {
     //spotify token: Start the auth procuess by using my id and secret to get an access token
@@ -7,8 +7,8 @@ var app = {
   },
 
   getToken: function(word) {
-    var id = 'd2eb59a247224506b822512d979a2f5f';
-    var secret = '7abe06724e1c451e92e97e96b72ad7cc';
+    var id = 'Your ID';
+    var secret = 'Your secret ID';
     //this base encodes your id and secret to pass to the spotify server
     var encoded = btoa(id + ':' + secret);
     $.ajax({
